@@ -40,4 +40,16 @@ static NSString * const cellIdentifier = @"identifier";
 
 }
 
+-(CGFloat)heightForIndexPath:(NSIndexPath *)indexPath {
+    return 44;
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return @"Recipe.com";
+    
+}
+
+
+
+
 @end
